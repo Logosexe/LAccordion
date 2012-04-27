@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19E3C779153F33D8009AC27D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19E3C778153F33D8009AC27D /* UIKit.framework */; };
+		19E3C77B153F33D8009AC27D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19E3C77A153F33D8009AC27D /* Foundation.framework */; };
+		19E3C77D153F33D8009AC27D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19E3C77C153F33D8009AC27D /* CoreGraphics.framework */; };
+		19E3C783153F33D8009AC27D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 19E3C781153F33D8009AC27D /* InfoPlist.strings */; };
+		19E3C785153F33D8009AC27D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E3C784153F33D8009AC27D /* main.m */; };
+		19E3C789153F33D8009AC27D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E3C788153F33D8009AC27D /* AppDelegate.m */; };
+		19E3C7A8153F34B4009AC27D /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E3C7A2153F3469009AC27D /* Item.m */; };
+		19E3C7A9153F34B7009AC27D /* ItemButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E3C7A4153F3469009AC27D /* ItemButton.m */; };
+		19E3C7AA153F34B8009AC27D /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E3C7A6153F3469009AC27D /* RootViewController.m */; };
+		19E3C7AD153F35CC009AC27D /* bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 19E3C7AB153F35CB009AC27D /* bg@2x.png */; };
+		19E3C7AE153F35CC009AC27D /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 19E3C7AC153F35CC009AC27D /* bg.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		19E3C774153F33D8009AC27D /* LAccordion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LAccordion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19E3C778153F33D8009AC27D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		19E3C77A153F33D8009AC27D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		19E3C77C153F33D8009AC27D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		19E3C780153F33D8009AC27D /* LAccordion-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LAccordion-Info.plist"; sourceTree = "<group>"; };
+		19E3C782153F33D8009AC27D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		19E3C784153F33D8009AC27D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		19E3C786153F33D8009AC27D /* LAccordion-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LAccordion-Prefix.pch"; sourceTree = "<group>"; };
+		19E3C787153F33D8009AC27D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		19E3C788153F33D8009AC27D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		19E3C7A1153F3469009AC27D /* Item.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		19E3C7A2153F3469009AC27D /* Item.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		19E3C7A3153F3469009AC27D /* ItemButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ItemButton.h; sourceTree = "<group>"; };
+		19E3C7A4153F3469009AC27D /* ItemButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ItemButton.m; sourceTree = "<group>"; };
+		19E3C7A5153F3469009AC27D /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		19E3C7A6153F3469009AC27D /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		19E3C7AB153F35CB009AC27D /* bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg@2x.png"; sourceTree = "<group>"; };
+		19E3C7AC153F35CC009AC27D /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19E3C771153F33D8009AC27D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19E3C779153F33D8009AC27D /* UIKit.framework in Frameworks */,
+				19E3C77B153F33D8009AC27D /* Foundation.framework in Frameworks */,
+				19E3C77D153F33D8009AC27D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19E3C769153F33D8009AC27D = {
+			isa = PBXGroup;
+			children = (
+				19E3C77E153F33D8009AC27D /* LAccordion */,
+				19E3C777153F33D8009AC27D /* Frameworks */,
+				19E3C775153F33D8009AC27D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19E3C775153F33D8009AC27D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19E3C774153F33D8009AC27D /* LAccordion.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19E3C777153F33D8009AC27D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19E3C778153F33D8009AC27D /* UIKit.framework */,
+				19E3C77A153F33D8009AC27D /* Foundation.framework */,
+				19E3C77C153F33D8009AC27D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		19E3C77E153F33D8009AC27D /* LAccordion */ = {
+			isa = PBXGroup;
+			children = (
+				19E3C787153F33D8009AC27D /* AppDelegate.h */,
+				19E3C788153F33D8009AC27D /* AppDelegate.m */,
+				19E3C7A1153F3469009AC27D /* Item.h */,
+				19E3C7A2153F3469009AC27D /* Item.m */,
+				19E3C7AB153F35CB009AC27D /* bg@2x.png */,
+				19E3C7AC153F35CC009AC27D /* bg.png */,
+				19E3C7A3153F3469009AC27D /* ItemButton.h */,
+				19E3C7A4153F3469009AC27D /* ItemButton.m */,
+				19E3C7A5153F3469009AC27D /* RootViewController.h */,
+				19E3C7A6153F3469009AC27D /* RootViewController.m */,
+				19E3C77F153F33D8009AC27D /* Supporting Files */,
+			);
+			path = LAccordion;
+			sourceTree = "<group>";
+		};
+		19E3C77F153F33D8009AC27D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				19E3C780153F33D8009AC27D /* LAccordion-Info.plist */,
+				19E3C781153F33D8009AC27D /* InfoPlist.strings */,
+				19E3C784153F33D8009AC27D /* main.m */,
+				19E3C786153F33D8009AC27D /* LAccordion-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19E3C773153F33D8009AC27D /* LAccordion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19E3C78C153F33D8009AC27D /* Build configuration list for PBXNativeTarget "LAccordion" */;
+			buildPhases = (
+				19E3C770153F33D8009AC27D /* Sources */,
+				19E3C771153F33D8009AC27D /* Frameworks */,
+				19E3C772153F33D8009AC27D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LAccordion;
+			productName = LAccordion;
+			productReference = 19E3C774153F33D8009AC27D /* LAccordion.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19E3C76B153F33D8009AC27D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = yosoftware;
+			};
+			buildConfigurationList = 19E3C76E153F33D8009AC27D /* Build configuration list for PBXProject "LAccordion" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 19E3C769153F33D8009AC27D;
+			productRefGroup = 19E3C775153F33D8009AC27D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19E3C773153F33D8009AC27D /* LAccordion */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19E3C772153F33D8009AC27D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19E3C783153F33D8009AC27D /* InfoPlist.strings in Resources */,
+				19E3C7AD153F35CC009AC27D /* bg@2x.png in Resources */,
+				19E3C7AE153F35CC009AC27D /* bg.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19E3C770153F33D8009AC27D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19E3C785153F33D8009AC27D /* main.m in Sources */,
+				19E3C789153F33D8009AC27D /* AppDelegate.m in Sources */,
+				19E3C7A8153F34B4009AC27D /* Item.m in Sources */,
+				19E3C7AA153F34B8009AC27D /* RootViewController.m in Sources */,
+				19E3C7A9153F34B7009AC27D /* ItemButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		19E3C781153F33D8009AC27D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19E3C782153F33D8009AC27D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19E3C78A153F33D8009AC27D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		19E3C78B153F33D8009AC27D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19E3C78D153F33D8009AC27D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LAccordion/LAccordion-Prefix.pch";
+				INFOPLIST_FILE = "LAccordion/LAccordion-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		19E3C78E153F33D8009AC27D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LAccordion/LAccordion-Prefix.pch";
+				INFOPLIST_FILE = "LAccordion/LAccordion-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19E3C76E153F33D8009AC27D /* Build configuration list for PBXProject "LAccordion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19E3C78A153F33D8009AC27D /* Debug */,
+				19E3C78B153F33D8009AC27D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19E3C78C153F33D8009AC27D /* Build configuration list for PBXNativeTarget "LAccordion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19E3C78D153F33D8009AC27D /* Debug */,
+				19E3C78E153F33D8009AC27D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19E3C76B153F33D8009AC27D /* Project object */;
+}
